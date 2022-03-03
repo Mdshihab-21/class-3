@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Class-3,H/W</title>
+	</head>
+	<body bgcolor="#8C86A3">
+		<marquee>Home Work,Class-3</marquee>
+		<br>
+		
+		<from autocomplete="false">
+			<table border="0" width="400" cellpadding="15" cellspacing="0" align="center" bgcolor="#BA9F4D">
+				<tr>
+					<td>
+						<label for="a">Email</label>
+					</td>
+					<td>
+						<input type="email" placeholder="Enter your email address" id="a" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="b">Password</label>
+					</td>
+					<td>	
+						<input type="password" id="b" placeholder="Enter your password" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" value="Login">
+					</td>
+					<td>
+						<input type="reset" value="Clear">
+					</td>
+				</tr>
+			</table>
+		</from>
+		<br>
+		
+		
+		<form autocomplete="false">
+			<table border="0" width="800" cellpadding="15" celspacing="0" align="center" bgcolor="#6E936B">
+				<tr>
+					<td colspan="2"><h1 align="center"><b><i>Travel reservation form</i></b></h1></td>
+				</tr>
+				<tr>
+					<td><label for="e">Full name:<sup>*</sup></label></td>
+					<td><input type="text" id="e" maxlength="25" Placeholder="First Name Last Name" required></td>
+				</tr>
+				<tr>
+					<td><label for="f">Email Address:<sup>*</sup></label></td>
+					<td><input type="email" id="f" placeholder="Email Address" required></td>
+				</tr>
+				<tr>
+					<td><label for="g">Arrival date:<sup>*</sup></label></td>
+					<td><input type="date" id="g" required></td>
+				</tr>
+				<tr>
+					<td><label>Blood Group<sup>*</sup></label></td>
+					<td>
+						<select>
+							<optgroup label="Positive">
+								<option>O+</option>
+								<option>A+</option>
+								<option selected>B+</option>
+							</optgroup>
+							
+							<optgroup label="Negative">
+								<option>O-</option>
+								<option>A-</option>
+								<option>B-</option>
+							</optgroup>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="d">Number Of Persons<sup>*</sup></label></td>
+					<td><input type="tel" id="d"maxlength="11" required placeholder="UNKNOWN TYPE"></td>
+				</tr>
+				<tr>
+					<td colspan="2">What would you want to avail?<sup>*</sup></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" id="i">
+						<label for="i">Boarding</label>
+						<input type="checkbox" id="1">
+						<label for="1">Fooding</label>
+						<input type="checkbox" id="l">
+						 <label for="l">Sight seeing</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Terms and conditions<sup>*</sup></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="radio" id="k" name="go">
+						<label for="k">I agree</label>
+						<input type="radio" id="o" name="go">
+						<label for="0">I disagree</label>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button type="submit">Complete reservation</button>
+					</td>
+					<td>
+						<input type="reset" value="All clear">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
